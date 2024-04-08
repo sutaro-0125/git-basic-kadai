@@ -1,0 +1,29 @@
+PS C:\Users\81801.000\Desktop\GitTest_samurai> cd "C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge"
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git init
+Initialized empty Git repository in C:/Users/81801.000/Desktop/GitTest_samurai/git_challenge/.git/
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git add .
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git commit -m "1回目のコミット"               
+>> 
+[main (root-commit) 9486eed] 1蝗樒岼縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git add .
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git commit -m "日本語訳追加"   
+[main 03663c3] 譌･譛ｬ隱櫁ｨｳ霑ｽ蜉
+ 1 file changed, 1 insertion(+)
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git log
+commit 03663c30f3012150d1ebd0852b00eef0acc512c7 (HEAD -> main)
+Author: sutaro-0125 <sutaro04030620@gmail.com>
+Date:   Mon Apr 8 13:35:02 2024 +0900
+
+    日本語訳追加
+
+commit 9486eedca657fd850b7a380f1280e29551728267
+Author: sutaro-0125 <sutaro04030620@gmail.com>
+Date:   Mon Apr 8 13:34:03 2024 +0900
+
+    1回目のコミット
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge> git log --oneline
+03663c3 (HEAD -> main) 日本語訳追加
+9486eed 1回目のコミット
+PS C:\Users\81801.000\Desktop\GitTest_samurai\git_challenge>
